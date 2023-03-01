@@ -1,0 +1,38 @@
+# Asymmetric-Effort: Bootstrap
+# (c) 2023 Sam Caldwell.  LICENSE.txt
+#
+# Tools to boostrap local development or production environments.
+# These submodules can be
+#
+# Documentation: https://docs.google.com/document/d/1vnADwiePJWJ3hBenu0EVNb4Njh8IeMmk_VU5b5S34sc/edit#heading=h.3a236skav0z5
+#
+[submodule "dns-server"]
+    # Documentation: https://docs.google.com/document/d/1ShADnLRV4iWW8p8hS_xrycEzsGhT54DUzCpZUhZI7lw/edit
+	path = ./dns-server
+	url = git@github.com:asymmetric-effort/dns-server.git
+
+[submodule "docker-hub"]
+    # Documentation: https://docs.google.com/document/d/1QazYWyHWMXcTJzIUVsjANuS56mf9Sa1nh-fTezR8qXI/edit
+	path = ./docker-hub
+	url = git@github.com:asymmetric-effort/docker-hub.git
+
+[submodule "git-server"]
+    # Documentation: https://docs.google.com/document/d/1nFT3IdgkomVWqV2T15t2vqlnVR1SaZsaPrDdhotCe40/edit
+	path = ./git-server
+	url = git@github.com:asymmetric-effort/git-server.git
+
+[submodule "git-tools"]
+    # Documentation: https://docs.google.com/document/d/1FT6YqBECGEAyQnV-ZBhrvhSjqDTt6whx_GItzY6XVQ8/view#heading=h.3a236skav0z5
+	path = ./git-tools
+	url = git@github.com:asymmetric-effort/git-tools.git
+
+[submodule "package-server"]
+    # Documentation: https://docs.google.com/document/d/1BzdEhh3XSkGrrpPQRx8GUZMtV5L3g2j-q5a3b8tfArw/edit
+	path = ./package-server
+	url = git@github.com:asymmetric-effort/package-server.git
+
+[submodule "pki-server"]
+    # Documentation: https://docs.google.com/document/d/18IkLDBvZ_3IrSwN0qwWoqJ3q0y8TGRv8g8OIJLPTrpU/edit
+	path = ./pki-server
+	url = git@github.com:asymmetric-effort/pki-server.git
+

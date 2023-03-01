@@ -1,0 +1,8 @@
+.idea/
+**/venv/
+**/log/
+**/temp/
+**/tmp/
+*.tmp
+*.iml
+*.log
